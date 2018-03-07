@@ -1,0 +1,41 @@
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/9/2014
+* Sass Version by Seth Coelen https://github.com/whatsnewsaes
+* Concrete5 version by Jared Walters https://github.com/jaredwalters
+*/
+
+/* Base files. */
+@import "base/normalize";
+@import "base/variables";
+@import "base/functions";
+@import "base/base-styles";
+@import "base/utils";
+
+/* CCM Page Wrapper */
+
+.ccm-page {
+  @import "base/typography";
+
+  /* Modules */
+  @import "modules/grid";
+  @import "modules/buttons";
+  @import "modules/forms";
+  @import "modules/lists";
+  @import "modules/code";
+  @import "modules/tables";
+  @import "modules/spacing";
+  @import "modules/media-queries";
+  
+  /* Theme */
+  @import "theme/header";
+  @import "theme/footer";
+  
+  /* Pages */
+  @import "pages/page";
+  @import "pages/home"; 
+}
